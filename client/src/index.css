@@ -72,14 +72,12 @@ body {
   background-color: lightskyblue;
 }
 
-.nav-links  {
-  text-decoration: none;
-  color: #1c5d76;
-  font-weight: bold;
-  margin-right: 8px;
-}
 
-a{
-  text-decoration:none;
-  color:black;
+
+
+.nav-link  {
+  text-decoration: none;
+  color:rgb(0, 26, 255);
+  font-weight: bold;
+  
 }

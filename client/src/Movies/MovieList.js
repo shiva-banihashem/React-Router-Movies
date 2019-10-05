@@ -33,7 +33,7 @@ function MovieDetails({ movie }) {
   
   
   return (
-        <NavLink activeClassName= "nav-links" to={`/movies/${movie.id}`}>
+        <NavLink className="nav-link" to={`/movies/${movie.id}`} >
       <MovieCard movie={movie}/>
     </NavLink>
     

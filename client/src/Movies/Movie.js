@@ -20,8 +20,8 @@ const Movie = (props) => {
           console.error(error);
         });
 
-  },[]);
-  console.log(movie);
+  },[props.match.params.id]);
+  
   // Uncomment this only when you have moved on to the stretch goals
   const saveMovie = () => {
     const addToSavedList = props.addToSavedList;
@@ -34,7 +34,7 @@ const Movie = (props) => {
     return <div>Loading movie information...</div>;
   }
 
-  const { title, director, metascore, stars } = movie;
+  // const { title, director, metascore, stars } = movie;
   return (
     <div className="save-wrapper">
       {/* <div className="movie-card">
